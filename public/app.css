@@ -1,0 +1,42 @@
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+.even__page{
+  display: flex;
+
+}
+.left__side{
+  flex:0.5;
+  
+  height:64.72vh;
+}
+.right__side{
+  flex:0.5;
+  
+}
+
+.even__page button {
+  padding:100%;
+  
+  background-color:rgb(1, 55, 73);
+}
+.right__side button{
+  height:100%;
+  width:100%;
+  background-color:rgb(8, 59, 77);
+}
